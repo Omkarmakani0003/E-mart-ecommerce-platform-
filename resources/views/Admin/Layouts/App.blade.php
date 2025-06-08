@@ -261,7 +261,29 @@
                 <p>Dashboard</p>
               </a>
             </li>
-             
+            <li class="nav-item menu-open">
+              <a href="#" class="nav-link active">
+                <i class="nav-icon bi bi-speedometer"></i>
+                <p>
+                  Product
+                  <i class="nav-arrow bi bi-chevron-right"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="./index.html" class="nav-link">
+                    <i class="nav-icon bi bi-circle"></i>
+                    <p>Add product</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index2.html" class="nav-link active">
+                    <i class="nav-icon bi bi-circle"></i>
+                    <p>Product list</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
             </ul>
             <!--end::Sidebar Menu-->
           </nav>

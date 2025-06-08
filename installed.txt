@@ -1,0 +1,4 @@
+sluggable - create auto slug
+ commands:
+     composer require cviebrock/eloquent-sluggable
+     php artisan vendor:publish --provider="Cviebrock\EloquentSluggable\ServiceProvider"
